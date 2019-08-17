@@ -1,0 +1,3 @@
+127.0.0.1 - - [17/Aug/2019:09:03:37 +0800] "GET /biz/api/hotel/queryhotelfeature HTTP/1.0" 404 949 http-bio-8082-exec-3 57
+127.0.0.1 - - [17/Aug/2019:09:03:37 +0800] "GET /biz/api/hotel/queryhotcity/1 HTTP/1.0" 200 1192 http-bio-8082-exec-2 448
+127.0.0.1 - - [17/Aug/2019:09:03:37 +0800] "GET /biz/api/hotel/queryhotcity/2 HTTP/1.0" 200 1168 http-bio-8082-exec-1 448
