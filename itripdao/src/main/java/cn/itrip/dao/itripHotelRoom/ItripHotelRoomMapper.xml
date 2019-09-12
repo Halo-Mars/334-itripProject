@@ -4,6 +4,29 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.itrip.dao.itripHotelRoom.ItripHotelRoomMapper">
 
+    <select id="GetRoom" resultType="cn.itrip.pojo.ItripHotelRoomVO" parameterType="Map">
+        SELECT
+        *
+        FROM
+        itrip_hotel_room room
+
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="hid != null and hid!=''">
+                and hotelId=#{hid}
+            </if>
+            <if test="Dkey!=null and Dkey!=''">
+                AND
+                <foreach item="item"  collection="Dkey" open="(" separator="AND" close=")">
+                    (
+                    (SELECT store FROM	itrip_hotel_temp_store	WHERE	roomId = room.id AND date_format(recordDate, '%Y-%m-%d') = date_format(#{item}, '%Y-%m-%d')) IS NULL
+                    OR
+                    (SELECT	store FROM	itrip_hotel_temp_store	WHERE roomId = room.id	AND date_format(recordDate, '%Y-%m-%d') = date_format(#{item}, '%Y-%m-%d')) > 0
+                    )
+                </foreach>
+            </if>
+        </trim>
+    </select>
+
     <select id="getItripHotelRoomById" resultType="cn.itrip.pojo.ItripHotelRoom" >
         select
                 id as id,

@@ -6,6 +6,8 @@ import java.util.Map;
 
 public interface ItripHotelTempStoreMapper {
 
+	public void InsertDate(Map<String,Object> map);
+
 	public ItripHotelTempStore getItripHotelTempStoreById(@Param(value = "id") Long id)throws Exception;
 
 	public List<ItripHotelTempStore>	getItripHotelTempStoreListByMap(Map<String, Object> param)throws Exception;

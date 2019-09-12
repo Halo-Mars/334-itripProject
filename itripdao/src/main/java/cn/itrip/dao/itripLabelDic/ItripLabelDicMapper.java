@@ -6,6 +6,8 @@ import java.util.Map;
 
 public interface ItripLabelDicMapper {
 
+	public List<ItripLabelDic> lab();
+
 	public ItripLabelDic getItripLabelDicById(@Param(value = "id") Long id)throws Exception;
 
 	public List<ItripLabelDic>	getItripLabelDicListByMap(Map<String, Object> param)throws Exception;

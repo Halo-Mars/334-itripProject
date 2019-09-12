@@ -1,0 +1,3 @@
+127.0.0.1 - - [29/Aug/2019:14:20:13 +0800] "POST /search/api/hotellist/searchItripHotelListByHotCity HTTP/1.0" 200 3915 http-bio-8083-exec-1 1806
+127.0.0.1 - - [29/Aug/2019:14:20:13 +0800] "POST /search/api/hotellist/searchItripHotelListByHotCity HTTP/1.0" 200 4108 http-bio-8083-exec-2 1806
+127.0.0.1 - - [29/Aug/2019:14:20:16 +0800] "POST /search/api/hotellist/searchItripHotelPage HTTP/1.0" 200 3493 http-bio-8083-exec-3 378

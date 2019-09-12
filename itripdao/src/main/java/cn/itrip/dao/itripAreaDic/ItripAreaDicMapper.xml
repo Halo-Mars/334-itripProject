@@ -4,6 +4,12 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.itrip.dao.itripAreaDic.ItripAreaDicMapper">
 
+    <select id="selectByCity" resultType="cn.itrip.pojo.ItripAreaDic">
+        SELECT * FROM itrip_area_dic WHERE parent=#{pid}
+
+
+    </select>
+
     <select id="ishot" resultType="cn.itrip.pojo.ItripAreaDic" >
         select
         id as id,

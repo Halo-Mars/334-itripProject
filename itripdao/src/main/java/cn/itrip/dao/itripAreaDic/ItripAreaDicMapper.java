@@ -6,7 +6,7 @@ import java.util.Map;
 
 public interface ItripAreaDicMapper {
 
-
+	public List<ItripAreaDic> selectByCity(@Param(value = "pid")String id);
 
 	public List<ItripAreaDic> ishot(@Param(value = "type")String  s)throws Exception;
 

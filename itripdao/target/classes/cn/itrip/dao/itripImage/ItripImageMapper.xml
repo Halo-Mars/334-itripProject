@@ -4,6 +4,13 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.itrip.dao.itripImage.ItripImageMapper">
 
+
+    <select id="getimagebyid" resultType="cn.itrip.pojo.ItripImageVO">
+
+        select * from itrip_image where targetid=#{id} and type=1
+    </select>
+
+
     <select id="getItripImageById" resultType="cn.itrip.pojo.ItripImage" >
         select
                 id as id,

@@ -1,0 +1,14 @@
+127.0.0.1 - - [28/Aug/2019:14:36:17 +0800] "POST /search/api/hotellist/searchItripHotelListByHotCity HTTP/1.0" 200 3915 http-bio-8083-exec-1 2613
+127.0.0.1 - - [28/Aug/2019:14:36:17 +0800] "POST /search/api/hotellist/searchItripHotelListByHotCity HTTP/1.0" 200 4108 http-bio-8083-exec-2 2613
+127.0.0.1 - - [28/Aug/2019:14:36:57 +0800] "POST /search/api/hotellist/searchItripHotelListByHotCity HTTP/1.0" 200 3552 http-bio-8083-exec-3 40
+127.0.0.1 - - [28/Aug/2019:14:37:01 +0800] "POST /search/api/hotellist/searchItripHotelListByHotCity HTTP/1.0" 200 3843 http-bio-8083-exec-4 26
+127.0.0.1 - - [28/Aug/2019:14:37:25 +0800] "POST /search/api/hotellist/searchItripHotelPage HTTP/1.0" 200 3493 http-bio-8083-exec-5 660
+127.0.0.1 - - [28/Aug/2019:15:15:38 +0800] "POST /search/api/hotellist/searchItripHotelListByHotCity HTTP/1.0" 200 3915 http-bio-8083-exec-1 1765
+127.0.0.1 - - [28/Aug/2019:15:15:38 +0800] "POST /search/api/hotellist/searchItripHotelListByHotCity HTTP/1.0" 200 4108 http-bio-8083-exec-2 1765
+127.0.0.1 - - [28/Aug/2019:15:15:41 +0800] "POST /search/api/hotellist/searchItripHotelPage HTTP/1.0" 200 3493 http-bio-8083-exec-3 100
+127.0.0.1 - - [28/Aug/2019:15:33:01 +0800] "POST /search/api/hotellist/searchItripHotelListByHotCity HTTP/1.0" 200 3915 http-bio-8083-exec-1 1443
+127.0.0.1 - - [28/Aug/2019:15:33:01 +0800] "POST /search/api/hotellist/searchItripHotelListByHotCity HTTP/1.0" 200 4108 http-bio-8083-exec-2 1443
+127.0.0.1 - - [28/Aug/2019:15:33:04 +0800] "POST /search/api/hotellist/searchItripHotelPage HTTP/1.0" 200 3493 http-bio-8083-exec-3 49
+127.0.0.1 - - [28/Aug/2019:16:50:09 +0800] "POST /search/api/hotellist/searchItripHotelListByHotCity HTTP/1.0" 200 4108 http-bio-8083-exec-5 186
+127.0.0.1 - - [28/Aug/2019:16:50:09 +0800] "POST /search/api/hotellist/searchItripHotelListByHotCity HTTP/1.0" 200 3915 http-bio-8083-exec-4 202
+127.0.0.1 - - [28/Aug/2019:16:50:13 +0800] "POST /search/api/hotellist/searchItripHotelPage HTTP/1.0" 200 3493 http-bio-8083-exec-6 81

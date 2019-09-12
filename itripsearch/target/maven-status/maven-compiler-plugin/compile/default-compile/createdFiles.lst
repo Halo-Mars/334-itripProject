@@ -1,0 +1,8 @@
+com\bdqn\text\SolrText.class
+com\bdqn\Controller\HotelController.class
+com\bdqn\dao\BaseSolr.class
+com\bdqn\entity\SearchHotelVO.class
+com\bdqn\entity\ItripHotelVO.class
+com\bdqn\entity\SearchHotCityVO.class
+com\bdqn\entity\Page.class
+com\bdqn\entity\Hotel.class

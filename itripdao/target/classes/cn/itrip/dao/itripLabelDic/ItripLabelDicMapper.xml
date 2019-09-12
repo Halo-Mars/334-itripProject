@@ -4,6 +4,12 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.itrip.dao.itripLabelDic.ItripLabelDicMapper">
 
+    <select id="lab" resultType="cn.itrip.pojo.ItripLabelDic" >
+        SELECT * FROM itrip_label_dic WHERE parentId=16
+
+    </select>
+
+
     <select id="getItripLabelDicById" resultType="cn.itrip.pojo.ItripLabelDic" >
         select
                 id as id,

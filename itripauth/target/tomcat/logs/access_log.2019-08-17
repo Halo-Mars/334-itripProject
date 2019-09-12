@@ -1,8 +1,0 @@
-127.0.0.1 - - [17/Aug/2019:08:48:37 +0800] "POST /auth/api/registerbyphone HTTP/1.0" 200 307 http-bio-8081-exec-1 2303
-127.0.0.1 - - [17/Aug/2019:08:48:56 +0800] "PUT /auth/api/validatephone?user=15871350043&code=6147 HTTP/1.0" 405 1045 http-bio-8081-exec-2 10
-127.0.0.1 - - [17/Aug/2019:08:49:38 +0800] "GET /auth/api/validatephone?user=15871350043&code=6147 HTTP/1.0" 405 1045 http-bio-8081-exec-3 6
-127.0.0.1 - - [17/Aug/2019:08:52:00 +0800] "GET /auth/api/validatephone?user=15871350043&code=6147 HTTP/1.0" 405 1045 http-bio-8081-exec-4 4
-127.0.0.1 - - [17/Aug/2019:09:03:00 +0800] "POST /auth/api/registerbyphone HTTP/1.0" 200 308 http-bio-8081-exec-1 1606
-127.0.0.1 - - [17/Aug/2019:09:03:11 +0800] "PUT /auth/api/validatephone?user=15871350043&code=4457 HTTP/1.0" 200 76 http-bio-8081-exec-2 160
-127.0.0.1 - - [17/Aug/2019:09:03:36 +0800] "POST /auth/api/dologin HTTP/1.0" 200 179 http-bio-8081-exec-3 288
-127.0.0.1 - - [17/Aug/2019:09:28:38 +0800] "POST /auth/api/retoken HTTP/1.0" 404 949 http-bio-8081-exec-4 0

@@ -1,10 +1,14 @@
 package cn.itrip.dao.itripImage;
 import cn.itrip.pojo.ItripImage;
+import cn.itrip.pojo.ItripImageVO;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;
 import java.util.Map;
 
 public interface ItripImageMapper {
+
+
+	public List<ItripImageVO>	getimagebyid(@Param(value = "id") String id);
 
 	public ItripImage getItripImageById(@Param(value = "id") Long id)throws Exception;
 
